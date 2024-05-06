@@ -5,15 +5,15 @@ public class ContaBancaria {
     private double saldo = 0.0;
 
     public ContaBancaria() {
-
-    }
-
-    public String getNomeCliente() {
-        return this.nomeCliente;
+     
     }
 
     public void setNomeCliente(String nome) {
         this.nomeCliente = nome;
+    }
+
+    public String getNomeCliente() {
+        return this.nomeCliente;
     }
 
     public String getAgencia() {
@@ -21,7 +21,7 @@ public class ContaBancaria {
     }
 
     public void setAgencia(String agencia) {
-        this.nomeCliente = agencia;
+        this.agencia = agencia;
     }
 
     public int getNumeroConta() {
@@ -42,7 +42,7 @@ public class ContaBancaria {
 
     @Override
     public String toString() {
-        return "Nome: " + this.nomeCliente + ". Agencia: "
-                + this.agencia + ". Conta: " + this.numeroConta + ". Saldo: " + this.saldo;
+        return "Nome: " + this.nomeCliente + ". Agencia: " + this.agencia + ". Conta: " + this.numeroConta + ". Saldo: "
+                + this.saldo;
     }
 }
