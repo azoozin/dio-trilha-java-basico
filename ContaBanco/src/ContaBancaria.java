@@ -42,8 +42,7 @@ public class ContaBancaria {
 
     @Override
     public String toString() {
-        return "Ola " + this.nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agencia e "
-                + this.agencia + ", conta " + this.numeroConta + " e seu saldo " + this.saldo
-                + " ja esta disponivel para saque.";
+        return "Nome: " + this.nomeCliente + ". Agencia: "
+                + this.agencia + ". Conta: " + this.numeroConta + ". Saldo: " + this.saldo;
     }
 }
