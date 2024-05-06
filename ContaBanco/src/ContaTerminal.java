@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
+        /*
+         * Versao abaixo e a versao basica do desafio ContaBanco
+         */
+
         // Scanner scan = new Scanner(System.in);
         // String nomeCliente;
         // String agencia;
